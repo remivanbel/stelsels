@@ -1,5 +1,12 @@
 import streamlit as st
 
+st.write("""Welkom!  
+         1. Lees het vraagstuk aandachtig  
+         2. Schrijf neer welke twee zaken je niet weet, noem deze x en y.  
+         3. Vertaal de tekst naar twee wiskundige vergelijkingen die gebruik maken van x en y.  
+         4. Geef deze vergelijking in op [GeoGebra](https://www.geogebra.org/graphing?lang=nl).  
+         5. Schuif de sliders naar de juist oplossing""")
+
 titels = ['munten','kraaien','wijn','konijnen','schoolfeest']
 
 tabs = st.tabs(titels)
